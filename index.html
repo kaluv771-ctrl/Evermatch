@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Marriage Match Assessment and Counselling Application">
+
+    <title>EverMatch | Marriage Assessment</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="brand">
+            <span class="brand-icon">♥</span>
+            <span>Ever<span class="brand-highlight">Match</span></span>
+        </a>
+
+        <a href="#assessment" class="nav-link">Start Assessment ↗</a>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    YOUR JOURNEY, YOUR FUTURE
+                </div>
+
+                <h1>
+                    A meaningful<br>
+                    connection starts<br>
+                    <span>with understanding.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Take a moment to complete our marriage readiness
+                    assessment. Your answers will help you reflect on
+                    your current circumstances and possible next steps.
+                </p>
+
+                <div class="hero-points">
+                    <div>
+                        <span class="point-icon">✓</span>
+                        Simple assessment
+                    </div>
+
+                    <div>
+                        <span class="point-icon">✓</span>
+                        Personal guidance
+                    </div>
+
+                    <div>
+                        <span class="point-icon">✓</span>
+                        Easy to complete
+                    </div>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-icon">♡</span>
+                    <p>
+                        Every person's journey is different.
+                        Take your time and make thoughtful choices.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="visual-card">
+
+                    <div class="visual-top">
+                        <span class="mini-label">A NEW CHAPTER</span>
+                        <span class="heart-badge">♥</span>
+                    </div>
+
+                    <div class="illustration">
+                        <div class="circle circle-one"></div>
+                        <div class="circle circle-two"></div>
+
+                        <div class="couple">
+                            <div class="person person-one">
+                                <div class="head"></div>
+                                <div class="body"></div>
+                            </div>
+
+                            <div class="person person-two">
+                                <div class="head"></div>
+                                <div class="body"></div>
+                            </div>
+
+                            <div class="heart-float">♥</div>
+                        </div>
+                    </div>
+
+                    <div class="visual-caption">
+                        <h2>Build a future with intention.</h2>
+                        <p>
+                            Self-awareness is a good place to begin.
+                        </p>
+                    </div>
+
+                    <div class="visual-footer">
+                        <span>✦ REFLECT</span>
+                        <span>✦ PREPARE</span>
+                        <span>✦ CONNECT</span>
+                    </div>
+
+                </div>
+
+                <div class="floating-card">
+                    <span class="floating-icon">♡</span>
+                    <div>
+                        <strong>Every journey matters</strong>
+                        <p>Start where you are.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="assessment-section" id="assessment">
+
+            <div class="section-heading">
+                <span class="section-label">YOUR NEXT CHAPTER</span>
+
+                <h2>Marriage Readiness Assessment</h2>
+
+                <p>
+                    Please complete the form below to receive feedback
+                    based on your answers.
+                </p>
+            </div>
+
+            <div class="form-card">
+
+                <div class="form-header">
+                    <div>
+                        <span class="step-label">ASSESSMENT FORM</span>
+                        <h3>Tell us about yourself</h3>
+                    </div>
+
+                    <span class="form-heart">♥</span>
+                </div>
+
+                <form id="marriageForm" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="age">Your age</label>
+
+                        <div class="input-wrap">
+                            <span class="input-icon">◷</span>
+
+                            <input
+                                type="number"
+                                id="age"
+                                name="age"
+                                placeholder="Enter your age"
+                                min="1"
+                                max="120"
+                                required
+                            >
+                        </div>
+
+                        <small>Enter your age in years.</small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="job_secure">
+                            Do you have a secure job?
+                        </label>
+
+                        <div class="select-wrap">
+
+                            <select id="job_secure" name="job_secure" required>
+                                <option value="" disabled selected>
+                                    Select your answer
+                                </option>
+
+                                <option value="yes">Yes, my job is secure</option>
+                                <option value="no">No, my job is not secure</option>
+                            </select>
+
+                            <span class="select-arrow">⌄</span>
+
+                        </div>
+
+                        <small>
+                            Consider your current employment and income stability.
+                        </small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="physical_desirability">
+                            Do you have any concerns about your physical well-being?
+                        </label>
+
+                        <div class="select-wrap">
+
+                            <select
+                                id="physical_desirability"
+                                name="physical_desirability"
+                                required
+                            >
+                                <option value="" disabled selected>
+                                    Select your answer
+                                </option>
+
+                                <option value="no">
+                                    No, I have no concerns
+                                </option>
+
+                                <option value="yes">
+                                    Yes, I have some concerns
+                                </option>
+                            </select>
+
+                            <span class="select-arrow">⌄</span>
+
+                        </div>
+
+                        <small>
+                            This question is for personal reflection, not a
+                            medical assessment or a judgment of appearance.
+                        </small>
+
+                    </div>
+
+                    <div class="privacy-note">
+                        <span>ⓘ</span>
+
+                        <p>
+                            Your answers are processed in this browser.
+                            This demonstration does not transmit or save
+                            your information.
+                        </p>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Submit Assessment</span>
+                        <span class="button-arrow">→</span>
+                    </button>
+
+                    <p class="form-disclaimer">
+                        This assessment provides general feedback only.
+                        It does not determine your worth or guarantee
+                        a marriage match.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="bottom-note">
+
+            <div class="bottom-heart">♥</div>
+
+            <h2>Ready for your next chapter?</h2>
+
+            <p>
+                A lasting relationship grows through mutual respect,
+                honest communication, shared values and commitment.
+            </p>
+
+            <a href="#assessment" class="bottom-link">
+                Complete your assessment ↑
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="footer-brand">EverMatch <span>♥</span></a>
+
+        <p>
+            Made for reflection, guidance and meaningful connections.
+        </p>
+
+        <span class="copyright">
+            © <span id="year"></span> EverMatch
+        </span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
